@@ -9,7 +9,7 @@ include('include/config.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bazarbd</title>
     <!--------CSS Custom ---------> 
-    <link rel='stylesheet'  href='css/style.css?ver=<? $version ?>'>
+    <link rel='stylesheet'  href='css/style.css?ver=1<? $version ?>'>
 
     <!--------CSS Icon Boxicons ---------> 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -83,6 +83,6 @@ include('include/config.php');
     
  <!--------JS Custom --------->
  
- <script type="text/javascript" src='js/maina.js></script>
+ <script type="text/javascript" src='js/maina.js'></script>
 </body>
 </html>

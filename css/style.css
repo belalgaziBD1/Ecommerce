@@ -111,7 +111,7 @@ body{
 }
 .header .search-form.active{
     right: 2rem;
-    transition: .3s linear;
+    transition: .4s linear;
 
 }
 
