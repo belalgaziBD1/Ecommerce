@@ -34,16 +34,17 @@ include('include/config.php');
     <div class="icons">
         <div class="fas fa-bars" id="manu-btn"></div>
         <div class="fas fa-search" id="search-btn"></div>
-        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-shopping-cart" id="ct-btn"></div>
         <div class="fas fa-user" id="user-btn"></div>
     </div>
     <form action="" class="search-form">
         <input type="search" id="search-box" placeholder="Search here....">
         <label for="search-box" class="fa fa-search"></label>
     </form>
-    <div class="shopping-cart">
+    <div class="shopping-cart" >
         <div class="box">
-            <img src="images/cart-image1.png"alt="">
+            <i class="fa fa-trash"></i>
+            <img src="images/1 (1).jpg"alt="">
             <div class="content">
                 <h3>water malon</h3>
                 <span class="price">$4.99</span>
@@ -51,11 +52,37 @@ include('include/config.php');
 
             </div>
         </div>
+
+        <div class="box">
+            <i class="fa fa-trash"></i>
+            <img src="images/1 (5).jpg"alt="">
+            <div class="content">
+                <h3>water malon</h3>
+                <span class="price">$4.99</span>
+                <span class="qty">Qty:2</span>
+
+            </div>
+        </div>
+        <div class="box">
+            <i class="fa fa-trash"></i>
+            <img src="images/1 (6).jpg"alt="">
+            <div class="content">
+                <h3>water malon</h3>
+                <span class="price">$4.99</span>
+                <span class="qty">Qty:2</span>
+
+            </div>
+        </div>
+        <div class="total">Total:19.99</div>
+        <a href="#" class="btn">Checkout</a>
+
+
     </div>
     
 </header>
     
  <!--------JS Custom --------->
- <script type="text/javascript" src='js/main.js'></script>
+ 
+ <script type="text/javascript" src='js/maina.js></script>
 </body>
 </html>
