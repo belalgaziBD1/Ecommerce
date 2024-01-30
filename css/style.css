@@ -58,7 +58,7 @@ body{
 
 }
 .header .logo{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 600;
     color:var(--black);
 }
@@ -197,13 +197,102 @@ body{
     margin: 1rem 0;
 }
 
+/*------------login from--------------*/
+
+.header .login-form{
+    position: absolute;
+    top: 110%;right: -110%;
+    width: 40rem;
+    box-shadow: var(--box-shadow);
+    padding: 3rem;
+    border-radius: .5rem;
+    background: #fff;
+    text-align: center;
+}
+.header .login-form.active{
+    right: 2rem;
+    transition: .4s linear;
+}
+.header .login-form h3{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.header .login-form .boxfil{
+    width: 100%;
+    margin: .7rem 0;
+    background: #eee;
+    border-radius: 1rem;
+    padding: 2rem;
+    font-size: 2rem;
+    color: var(--black);
+    text-transform: none;
+}
+.header .login-form input{
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--black);
+}
+.header .login-form p{
+    font-size: 1.6rem;
+    padding: .5rem;
+    color: var(--light-color);
+    font-weight: 600;
+}
+.header .login-form p a{
+    color: var(--orange);
+    margin-left:1rem ;
+    cursor: pointer;
+}
+.header .login-form button{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
 
 
 
 
 
 
+/*------------Media Quaries--------------*/
+@media (max-width:991px) {
+    html{
+        font-size: 55%;
+    }
+    .header{
+        padding: 2rem;
+    }
+}
 
+@media (max-width:760px) {
+    #manu-btn{
+        display: inline-block;
+    }
 
+    .header .navber{
+        position: absolute;
+        top: 110%;right: -110%;
+        width: 30rem;
+        box-shadow: var(--box-shadow);
+        border-radius: .5rem;
+        background: #fff;
 
+    }
+    .header .navber.active{
+        right: 2rem;
+        transition: .4s linear;
+    }
 
+    .header .navber a{
+    font-size: 2rem;
+    margin: 2rem 2.5rem;
+    display: block;
+    }
+}
+
+@media (max-width:450px) {
+    html{
+        font-size: 45%;
+    }
+}

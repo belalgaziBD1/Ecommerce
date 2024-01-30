@@ -78,6 +78,15 @@ include('include/config.php');
 
 
     </div>
+
+    <form action="" class="login-form">
+        <h3>Login Now</h3>
+        <input type="username" placeholder="Enter User Name" class="boxfil">
+        <input type="password" placeholder="Enter Password" class="boxfil">
+        <button type="submit" class="btn">login Now</button>
+        <P>Forget your password<a>Click Here!</a> </P>
+        <P>Don't have an account ?<a>Signup</a> </P>
+    </form>
     
 </header>
     
