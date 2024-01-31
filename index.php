@@ -89,6 +89,130 @@ include('include/config.php');
     </form>
     
 </header>
+<!--------Home Section start --------->
+<section class="home" id="home">
+    <div class="contant">
+        <h3>All kind of product are available</h3>
+        <p>Lorem Ipsum is simply dummy text of the 
+            printing and typesetting industry. Lorem 
+            Ipsum has been the industry's standard
+             dummy text ever since the 1500s .</p>
+    </div>
+</section>
+<!--------Home Section end --------->
+<!--------feature Section start --------->
+<section class="feature" id="feature">
+    <h1 class="heading">Our<span>Feature</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="./images/1 (6).jpg">
+            <h3>Fresh and organic</h3>
+            <P>Lorem Ipsum is simply dummy text of the 
+            printing and typesetting industry.
+            </P>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="box">
+            <img src="./images/d.png">
+            <h3>Free Delivery</h3>
+            <P>Lorem Ipsum is simply dummy text of the 
+            printing and typesetting industry.
+            </P>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="box">
+            <img src="./images/p.jpg">
+            <h3>Easy Payment</h3>
+            <P>Lorem Ipsum is simply dummy text of the 
+            printing and typesetting industry.
+            </P>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+</section>
+<!--------feature Section end --------->
+<!--------product Section start --------->
+<section class="products" id="products">
+    <h1 class="heading">Our <span>Products</span></h1>
+    <div class="ptoduct-slider">
+        <div class="wapper">
+            <div class="box">
+            <img src="./images/1 (6).jpg">
+                <h3>Fres Fulkopi</h3>
+                <div class="price">$4.99/- -10.99/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+
+            <div class="box">
+            <img src="./images/1 (6).jpg">
+                <h3>Fres Fulkopi</h3>
+                <div class="price">$4.99/- -10.99/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+
+            <div class="box">
+            <img src="./images/1 (6).jpg">
+                <h3>Fres Fulkopi</h3>
+                <div class="price">$4.99/- -10.99/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+
+            <div class="box">
+            <img src="./images/1 (6).jpg">
+                <h3>Fres Fulkopi</h3>
+                <div class="price">$4.99/- -10.99/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+
+            <div class="box">
+            <img src="./images/1 (6).jpg">
+                <h3>Fres Fulkopi</h3>
+                <div class="price">$4.99/- -10.99/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--------product Section end --------->
     
  <!--------JS Custom --------->
  

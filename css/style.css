@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;0,800;0,900;1,300;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 :root{
     --orange:#ff7800;
     --black:#130f40;
@@ -21,7 +21,7 @@
 
 }
 html{
-   font-size: 62.5%; 
+   font-size: 58.5%; 
    overflow-x: hidden;
    scroll-behavior: smooth;
    scroll-padding-top: 7rem;
@@ -29,6 +29,26 @@ html{
 
 body{
     background: #eee;
+}
+section{
+    padding: 2rem 10%;
+    
+    
+}
+.heading{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color: var(--black);
+    
+}
+.heading span{
+    background: var(--orange);
+    color: #fff;
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
 }
 .btn{
     display: inline-block;
@@ -248,8 +268,88 @@ body{
 .header .login-form button{
     font-size: 1.7rem;
     font-weight: 600;
+} 
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/homew.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
 }
+.home .contant{
+    text-align:center;
+    width: 60rem;
+    margin-left: 25rem;
+    padding: 9%;
 
+}
+.home .contant h3{
+    color: var(--black);
+    font-size: 3rem;
+}.home .contant p{
+    color: var(--black);
+    font-size: 1.5rem;
+}
+.feature .box-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+}
+.feature .box-container .box{
+    padding: 3rem 2rem;
+    background: #fff;
+    outline:var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+.feature .box-container .box:hover{
+    outline:var(--outline-hover);
+    outline-offset: 0rem;
+}
+.feature .box-container .box img{
+    margin: 1rem 0;
+    height: 20rem;
+}
+.feature .box-container .box h3{
+    font-size: 2.5rem;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+.feature .box-container .box p{
+    font-size: 1.8rem;
+    color: var(--black);
+    padding: 1rem 0;
+    
+}
+.products .product-slider{
+    padding: 1rem;
+}
+.products .product-slider:first-child{
+    margin-bottom: 2rem;
+}
+.products .product-slider .box{
+    border-radius: .5rem;
+    padding: 3rem 2rem;
+    background: #fff;
+    outline:var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
+}
+.products .product-slider .box:hover{
+    outline:var(--outline-hover);
+    outline-offset: 0rem;
+}
+.products .product-slider .box img{
+    height: 20rem;
+
+}
 
 
 
@@ -262,6 +362,9 @@ body{
     }
     .header{
         padding: 2rem;
+    }
+    section{
+        padding: 2rem ;
     }
 }
 
@@ -295,4 +398,14 @@ body{
     html{
         font-size: 45%;
     }
+    .heading{
+        font-size: 2.5rem;
+    }
+    .home{
+        display: none;
+    }
+    .feature {  
+        margin-top: 8rem;
+    }       
+
 }
