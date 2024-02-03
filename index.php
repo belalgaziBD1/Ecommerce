@@ -1,7 +1,6 @@
 <?php 
 include('include/config.php');
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +13,7 @@ include('include/config.php');
     <!--------CSS Icon Boxicons ---------> 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!--------CSS fontwesome --------->
     <link rel='stylesheet'  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
    
@@ -138,10 +137,10 @@ include('include/config.php');
 <!--------product Section start --------->
 <section class="products" id="products">
     <h1 class="heading">Our <span>Products</span></h1>
-    <div class="ptoduct-slider">
-        <div class="wapper">
-            <div class="box">
-            <img src="./images/1 (6).jpg">
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="./images/1 (5).jpg">
                 <h3>Fres Fulkopi</h3>
                 <div class="price">$4.99/- -10.99/-</div>
                 <div class="stars">
@@ -154,8 +153,8 @@ include('include/config.php');
                 <a href="#" class="btn">Add to cart</a>
             </div>
 
-            <div class="box">
-            <img src="./images/1 (6).jpg">
+            <div class="swiper-slide box">
+                <img src="./images/1 (6).jpg">
                 <h3>Fres Fulkopi</h3>
                 <div class="price">$4.99/- -10.99/-</div>
                 <div class="stars">
@@ -168,8 +167,8 @@ include('include/config.php');
                 <a href="#" class="btn">Add to cart</a>
             </div>
 
-            <div class="box">
-            <img src="./images/1 (6).jpg">
+            <div class="swiper-slide box">
+                <img src="./images/1 (6).jpg">
                 <h3>Fres Fulkopi</h3>
                 <div class="price">$4.99/- -10.99/-</div>
                 <div class="stars">
@@ -182,8 +181,8 @@ include('include/config.php');
                 <a href="#" class="btn">Add to cart</a>
             </div>
 
-            <div class="box">
-            <img src="./images/1 (6).jpg">
+            <div class="swiper-slide box">
+                <img src="./images/1 (6).jpg">
                 <h3>Fres Fulkopi</h3>
                 <div class="price">$4.99/- -10.99/-</div>
                 <div class="stars">
@@ -196,8 +195,78 @@ include('include/config.php');
                 <a href="#" class="btn">Add to cart</a>
             </div>
 
-            <div class="box">
-            <img src="./images/1 (6).jpg">
+            <div class="swiper-slide box">
+                <img src="./images/1 (6).jpg">
+                <h3>Fres Fulkopi</h3>
+                <div class="price">$4.99/- -10.99/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="./images/1 (6).jpg">
+                <h3>Fres Fulkopi</h3>
+                <div class="price">$4.99/- -10.99/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="./images/1 (6).jpg">
+                <h3>Fres Fulkopi</h3>
+                <div class="price">$4.99/- -10.99/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="./images/1 (6).jpg">
+                <h3>Fres Fulkopi</h3>
+                <div class="price">$4.99/- -10.99/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="./images/1 (6).jpg">
+                <h3>Fres Fulkopi</h3>
+                <div class="price">$4.99/- -10.99/-</div>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="./images/1 (5).jpg">
                 <h3>Fres Fulkopi</h3>
                 <div class="price">$4.99/- -10.99/-</div>
                 <div class="stars">
@@ -210,11 +279,13 @@ include('include/config.php');
                 <a href="#" class="btn">Add to cart</a>
             </div>
         </div>
+        
     </div>
 </section>
 <!--------product Section end --------->
     
  <!--------JS Custom --------->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
  
  <script type="text/javascript" src='js/main.js?v=<?=$version ?>'></script>
 </body>
